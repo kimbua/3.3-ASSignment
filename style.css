@@ -1,0 +1,28 @@
+* { 
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #eee;
+}
+body .container:nth-child(1){
+    background-color: white;
+}
+.flex {
+    display: flex;
+}
+.jc-space-around {
+    justify-content: space-around;
+    align-items: center;
+}
+#languages a {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 8px 32px;
+    background-color: #eee;
+    border-radius: 30px;
+}
+#newsList li {
+    list-style-type: none;
+}
